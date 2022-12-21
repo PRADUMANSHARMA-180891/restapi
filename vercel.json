@@ -1,0 +1,7 @@
+{
+    "version" :2,
+    "name":"restapi",
+    "builds":[{"src":"scc/app.js","use":"@vercel/node"}],
+    "ruotes" :[{"src":"/(.*)", "dest":"src/app.js"}]
+}
+
